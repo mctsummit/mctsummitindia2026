@@ -1,90 +1,171 @@
-QuadGrid Showdown (Python)
+<div align="center">
 
-QuadGrid Showdown is a 4×4 “tic‑tac‑toe style” game: two players alternate placing marks, and the first to complete 4-in-a-row wins (horizontal, vertical, or diagonal).
-We won’t call it Tic Tac Toe in the app name—but the mechanics are essentially tic‑tac‑toe on a 4×4 board.
+# 🎮 QuadGrid Showdown (Python)
 
-🧩 Objective
-Build QuadGrid Showdown end-to-end with GitHub Copilot using Python. You will implement:
+### A 4×4 Grid Strategy Game Built with Python & GitHub Copilot
 
-A 4×4 grid game (core logic)
-A desktop UI with Tkinter
-Convert it into a Web App (Flask or Streamlit)
-Add winner detection + reset
-Improve styling + alignment
-Add a login page with auth flow
-Follow best practices: decouple business logic from UI
+</div>
 
-✅ What Participants Will Deliver
-By the end, your repo should contain:
+---
 
-A working game with winner detection, draw detection, reset
-A UI version in Tkinter
-A web version in Flask or Streamlit
-A login gate before accessing the game page
-Code structured with separated layers (logic vs UI)
-A README.md describing how to run both UI and web versions
+## 📌 Overview
 
-Hackathon Tasks (Detailed Instructions + Expected Output)
+**QuadGrid Showdown** is a strategic, turn‑based **4×4 grid game** inspired by classic tic‑tac‑toe mechanics.
 
-✅ Task 1 — Implement QuadGrid Showdown (4×4 Grid Game Core)
-Goal
-Implement the core game mechanics (4×4 “tic‑tac‑toe style” gameplay).
+> ⚠️ The app name intentionally avoids calling it *Tic Tac Toe*  
+> ✅ Internally, gameplay follows **tic‑tac‑toe‑style rules on a 4×4 board**
 
-Acceptance Criteria
+---
 
-Correctly alternates X and O
-Prevents invalid moves
-Board state updates properly
+## 🧱 Game Mechanics
 
-✅ Task 2 — Add Desktop UI using Tkinter
-Goal
-Create a playable UI using Tkinter.
+- **Board Size:** 4 × 4  
+- **Players:** 2 (X and O)  
+- **Turn System:** Alternating turns  
+- **Win Condition:** First player to align **4 marks**  
+  - Horizontal  
+  - Vertical  
+  - Diagonal  
+- **Draw Condition:** Board is full with no winner  
 
-Acceptance Criteria
+---
 
-UI reflects the board state correctly
-No crashes on rapid clicking
-UI calls only core logic for gameplay rules
+## 🧩 Objective
 
-✅ Task 3 — Make it a Web App (Choose Flask OR Streamlit)
-Goal
-Build a browser-based version of the same game.
+Build **QuadGrid Showdown** **end‑to‑end** using **Python + GitHub Copilot**, following **real‑world engineering best practices**.
 
-✅ Task 4 — Winner Detection + Reset
-Goal
-Implement win detection, draw detection, and reset functionality across all UIs.
+### You will implement:
 
-Acceptance Criteria
+- ✅ Core 4×4 game engine  
+- 🖥️ Desktop UI using **Tkinter**  
+- 🌐 Web App using **Flask _or_ Streamlit**  
+- 🔍 Winner & draw detection  
+- 🔄 Reset functionality  
+- 🎨 Improved UI styling & alignment  
+- 🔐 Login page with authentication flow  
+- 🧠 Proper separation of business logic and UI  
 
-Correct winner detection (including diagonals)
-Draw detection when board full and no winner
-Reset reliably restores initial state
+---
 
-✅ Task 5 — Better Styling + Alignment
-Goal
-Improve visual clarity and alignment.
+## ✅ Expected Deliverables
 
-Acceptance Criteria
+By the end of the hackathon, your repository **must contain**:
 
-Visual alignment is noticeably improved
-No overlapping elements
-Works on common screen sizes
+- ✔️ Fully working 4×4 game logic  
+- ✔️ Winner, draw, and reset functionality  
+- ✔️ Desktop version (Tkinter)  
+- ✔️ Web version (Flask or Streamlit)  
+- ✔️ Authentication before accessing the game  
+- ✔️ Clean architecture (logic decoupled from UI)  
+- ✔️ A well‑written `README.md` with run instructions  
 
-✅ Task 6 — Add Login Page + Auth Flow
-Goal
-Add a login page. On successful login, route to the game page.
+---
 
-Acceptance Criteria
+## 🛠️ Hackathon Tasks
 
-Auth state stored safely:
+---
 
-Streamlit: session_state
-Flask: session
+### ✅ Task 1 — Implement QuadGrid Showdown Core Logic
 
+#### 🎯 Goal
+Build the **core game engine** for a 4×4 grid‑based game.
 
-Logout clears auth state and returns to login
+#### ✅ Acceptance Criteria
+- Players alternate correctly between **X** and **O**
+- Invalid moves are prevented
+- Board state updates accurately after each move
 
-✅ Task 7 — Best Practice: Decouple Business Logic from Front End
-Goal
-Ensure the core game engine is reusable in both Tkinter and web versions.
+---
 
+### ✅ Task 2 — Desktop UI using Tkinter
+
+#### 🎯 Goal
+Create an interactive **desktop application** using Tkinter.
+
+#### ✅ Acceptance Criteria
+- UI reflects the board state in real time
+- App remains stable on rapid clicks
+- UI **only calls** core logic for gameplay rules
+
+---
+
+### ✅ Task 3 — Convert to a Web App
+
+#### 🎯 Goal
+Create a browser‑based version of the game.
+
+#### Choose **one**:
+- 🌐 **Flask**
+- ⚡ **Streamlit**
+
+> ♻️ Reuse the same core game engine from Task 1
+
+---
+
+### ✅ Task 4 — Winner Detection & Reset
+
+#### 🎯 Goal
+Support win, draw, and reset functionality across **all UIs**.
+
+#### ✅ Acceptance Criteria
+- Detect wins (rows, columns, diagonals)
+- Detect draw when board is full
+- Reset restores initial game state reliably
+
+---
+
+### ✅ Task 5 — Styling & Layout Improvements
+
+#### 🎯 Goal
+Enhance overall **visual clarity**.
+
+#### ✅ Acceptance Criteria
+- Improved alignment and spacing
+- No overlapping elements
+- UI responsive on common screen sizes
+
+---
+
+### ✅ Task 6 — Login Page & Authentication Flow
+
+#### 🎯 Goal
+Add authentication before accessing the game.
+
+#### ✅ Acceptance Criteria
+- Secure auth state:
+  - **Streamlit:** `st.session_state`
+  - **Flask:** `session`
+- Successful login redirects to game
+- Logout clears state and returns to login page
+
+---
+
+### ✅ Task 7 — Best Practice: Decouple Logic from UI
+
+#### 🎯 Goal
+Ensure the game engine is **framework‑agnostic**.
+
+✅ The **same core logic** must power:
+- Tkinter UI
+- Web App (Flask / Streamlit)
+
+---
+
+## 🧠 Engineering Principles
+
+- 🧩 Separation of concerns  
+- ♻️ Reusability  
+- 📦 Clean project structure  
+- 🤖 Effective GitHub Copilot usage  
+
+---
+
+<div align="center">
+
+## 🚀 Ready to Build?
+
+This challenge evaluates **game logic, UI design, authentication, and architectural discipline**.
+
+### Good luck building **QuadGrid Showdown** 🎉
+
+</div>
