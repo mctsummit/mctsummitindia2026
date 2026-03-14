@@ -1,10 +1,6 @@
-<div align="center">
-
 # 🎮 QuadGrid Showdown (Python)
 
-### A 4×4 Grid Strategy Game Built with Python & GitHub Copilot
-
-</div>
+### A 4×4 Grid Strategy Game Built with Python & GitHub
 
 ---
 
