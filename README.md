@@ -156,12 +156,8 @@ Ensure the game engine is **framework‑agnostic**.
 
 ---
 
-<div align="center">
-
 ## 🚀 Ready to Build?
 
 This challenge evaluates **game logic, UI design, authentication, and architectural discipline**.
 
 ### Good luck building **QuadGrid Showdown** 🎉
-
-</div>
