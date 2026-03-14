@@ -1,4 +1,4 @@
-# 🎮 QuadGrid Showdown (Python)
+# 🎮 QuadGrid Showdown Hackathon
 
 ### A 4×4 Grid Strategy Game Built with Python & GitHub
 
