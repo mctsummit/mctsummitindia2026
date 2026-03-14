@@ -8,8 +8,7 @@
 
 **QuadGrid Showdown** is a strategic, turn‑based **4×4 grid game** inspired by classic tic‑tac‑toe mechanics.
 
-> ⚠️ The app name intentionally avoids calling it *Tic Tac Toe*  
-> ✅ Internally, gameplay follows **tic‑tac‑toe‑style rules on a 4×4 board**
+
 
 ---
 
@@ -128,9 +127,6 @@ Enhance overall **visual clarity**.
 Add authentication before accessing the game.
 
 #### ✅ Acceptance Criteria
-- Secure auth state:
-  - **Streamlit:** `st.session_state`
-  - **Flask:** `session`
 - Successful login redirects to game
 - Logout clears state and returns to login page
 
