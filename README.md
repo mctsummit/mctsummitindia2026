@@ -123,6 +123,7 @@ Enhance overall **visual clarity**.
 - Improved alignment and spacing
 - No overlapping elements
 - UI responsive on common screen sizes
+
 <img width="660" height="602" alt="image" src="https://github.com/user-attachments/assets/89a54c09-f0eb-4448-a602-38e49bc8fcda" />
 
 ---
