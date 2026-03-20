@@ -69,7 +69,6 @@ Build the **core game engine** for a 4×4 grid‑based game.
 - Players alternate correctly between **X** and **O**
 - Invalid moves are prevented
 - Board state updates accurately after each move
-<img width="664" height="522" alt="image" src="https://github.com/user-attachments/assets/06d8590b-e1f6-47d4-8b09-799dc6903831" />
 
 ---
 
@@ -83,7 +82,6 @@ Create an interactive **desktop application** using Tkinter.
 - App remains stable on rapid clicks
 - UI **only calls** core logic for gameplay rules
 
-  <img width="293" height="417" alt="image" src="https://github.com/user-attachments/assets/e0b90e7f-af96-46f6-83d0-7c55130ddc40" />
 
 
 ---
@@ -98,7 +96,6 @@ Create a browser‑based version of the game.
 - ⚡ **Streamlit**
 
 > ♻️ Reuse the same core game engine from Task 1
-<img width="597" height="363" alt="image" src="https://github.com/user-attachments/assets/5d7dd9d7-84f2-4e87-b1e3-5cffe31ff2c6" />
 
 ---
 
@@ -124,7 +121,6 @@ Enhance overall **visual clarity**.
 - No overlapping elements
 - UI responsive on common screen sizes
 
-<img width="660" height="602" alt="image" src="https://github.com/user-attachments/assets/89a54c09-f0eb-4448-a602-38e49bc8fcda" />
 
 ---
 
@@ -136,11 +132,6 @@ Add authentication before accessing the game.
 #### ✅ Acceptance Criteria
 - Successful login redirects to game
 - Logout clears state and returns to login page
-
-<img width="458" height="495" alt="image" src="https://github.com/user-attachments/assets/3d0fb96c-5829-41d3-bbff-65abfd0872f0" />
-
-
-<img width="660" height="602" alt="image" src="https://github.com/user-attachments/assets/9f754dc0-50d4-4f40-b940-36c6dc74271c" />
 
 ---
 
